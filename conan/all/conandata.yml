@@ -1,0 +1,4 @@
+sources:
+  "1.0.1":
+  - sha256: c418784881de671a63a0058a4b75246761efa1786645915f7e4daafd4011250c
+    url: https://github.com/sanblch/repr/archive/v1.0.1.tar.gz

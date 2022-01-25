@@ -3,6 +3,7 @@
 #include <sstream>
 #include <string>
 #include <variant>
+
 #include <repr/detail/has_c_str.h>
 #include <repr/detail/has_data.h>
 #include <repr/detail/is_complexish.h>
@@ -15,8 +16,9 @@
 #include <repr/detail/is_specialization.h>
 #include <repr/detail/is_pairish.h>
 #include <repr/detail/is_optionalish.h>
-#include <repr/detail/magic_enum/magic_enum.hpp>
-#include <repr/detail/boost/pfr.hpp>
+
+#include <boost/pfr.hpp>
+#include <magic_enum.hpp>
 
 namespace repr_detail {
 
